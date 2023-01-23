@@ -13,8 +13,13 @@
 // const container = document. querySelector('div');
 // console.log(container);
 
-// FROM BEAU
 
+
+
+
+
+// FROM BEAU
+/* SELECTING AND CHASNGING WEBSITE ELEMENTS
 let div1 = document.getElementById('div1');
 
 let unicycle = document.getElementsByClassName('unicycle');
@@ -32,7 +37,14 @@ let text = "Hello World";
 queryUnicycle.textContent = text;
 
 console.log(querryAll)
+*/
 
+
+/* SETTING AND GETTING CSS STYLES*/
+let line = document.getElementById('line');
+let attribute = document.getElementById('attribute');
+
+line.style.color = 'red';
 
 
 
